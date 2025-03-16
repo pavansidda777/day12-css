@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day10</title>
+    <style>
+      body {
+        position: relative;
+      }
+      .container1 {
+        align-content: center;
+        position: absolute;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 50px 200px;
+        justify-content: space-evenly;
+        margin: 25px;
+      }
+      h4 {
+        color: lightgray;
+      }
+      button {
+        width: 80%;
+      }
+      @media screen and (width<576px) {
+        .container1 {
+          grid-template-columns: auto;
+          font-size: 10px;
+        }
+      }
+      @media screen and (width>992px) and (width<1200px) {
+        .container1 {
+          grid-template-columns: auto auto auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container1">
+      <div>
+        <img src="John Doe.jpg" alt="" />
+        <h3>John Doe</h3>
+        <h4>CEO & Founder</h4>
+        <p>
+          Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+          pellentesque elementum.
+        </p>
+        <button>Contact</button>
+      </div>
+      <div>
+        <img src="Jane Doe.jpg" alt="" />
+        <h3>Jane Doe</h3>
+        <h4>Architect</h4>
+        <p>
+          Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+          pellentesque elementum.
+        </p>
+        <button>Contact</button>
+      </div>
+      <div>
+        <img src="Mike Ross.jpg" alt="" />
+        <h3>Mike Ross</h3>
+        <h4>Architect</h4>
+        <p>
+          Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+          pellentesque elementum.
+        </p>
+        <button>Contact</button>
+      </div>
+      <div>
+        <img src="Dan Star.jpg" alt="" />
+        <h3>Dan Star</h3>
+        <h4>Architect</h4>
+        <p>
+          Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+          pellentesque elementum.
+        </p>
+        <button>Contact</button>
+      </div>
+    </section>
+  </body>
+</html>
